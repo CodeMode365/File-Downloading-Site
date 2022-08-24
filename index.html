@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SaveFile</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h5>Refrence from: https://developer.mozilla.org</h5>
+      <h5><i>--> Common mimi types</i></h5>
+      <h5><i>--> JS blob</i></h5>
+      <br />
+      <textarea name="text-area" id="text-area" cols="50" rows="10"></textarea>
+      <div class="file-options">
+        <div class="option file-name">
+          <label for="">File Name:</label>
+          <input type="text" placeholder="Enter the file name" />
+        </div>
+        <div class="optio save-as">
+          <label for="">Save as</label>
+          <div class="select-menu">
+            <select name="" id="">
+              <option value="text/plain">Text file (.txt)</option>
+              <option value="text/javascript">JS file (.js)</option>
+              <option value="text/html">HTML file (.html)</option>
+              <option value="image/svg+xml">SVG file (.svg)</option>
+              <option value="application/msword">Doc file (.doc)</option>
+              <option value="application/pdf">PDF file (.pdf)</option>
+              <option value="application/vnd.ms-powerpoint">
+                PPT file (.ppt)
+              </option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <button class="save" id="save">Save the <span id="show-type">Text file</span></button>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
